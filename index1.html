@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertising Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #004d99, #00b3e6);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .header p {
+            font-size: 1.25rem;
+            margin-bottom: 30px;
+        }
+
+        .feature-icon {
+            font-size: 45px;
+            color: #007bff;
+        }
+
+        .feature-box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .cta-btn {
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            padding: 12px 20px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .search-box input {
+            border-radius: 30px;
+            padding: 12px 20px;
+            border: none;
+            width: 70%;
+        }
+
+        .search-box button {
+            background-color: #007bff;
+            color: white;
+            border-radius: 30px;
+            padding: 12px 20px;
+            border: none;
+        }
+
+        .search-box button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="header">
+        <div class="container">
+            <h1>あなたのWebサイトを素早く簡単に構築</h1>
+            <p>Bootstrapを使えば、魅力的でモダンなデザインを実現できます。</p>
+            <a href="#contact" class="cta-btn btn-lg">お問い合わせ</a>
+        </div>
+    </section>
+
+    <section class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">特徴</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-icon mb-3">🚀</div>
+                        <h5>高速開発</h5>
+                        <p>すぐに使えるコンポーネントで、スピーディに構築可能。</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-icon mb-3">📱</div>
+                        <h5>レスポンシブ対応</h5>
+                        <p>すべてのデバイスに最適化されたデザイン。</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-icon mb-3">🎨</div>
+                        <h5>美しいデザイン</h5>
+                        <p>視覚的に魅力的なデザインで、プロフェッショナルな印象を与えます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="woman.png" alt="サービス画像" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-md-6">
+                    <h3>あなたのビジネスを加速します</h3>
+                    <p>Bootstrapを使えば、魅力的なWebページが簡単に作れます。どんなデザインでも対応可能！</p>
+                    <a href="#contact" class="cta-btn btn-lg">今すぐ無料相談</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h4>お問い合わせ</h4>
+            <p>お気軽にご相談ください。</p>
+            <a href="mailto:info@example.com" class="cta-btn btn-lg">メールで連絡</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
